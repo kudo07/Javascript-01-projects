@@ -1,0 +1,73 @@
+/* General Styles
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYM49ewkKdzlGw1W2zQ9ZJoPTbj7EuLbKeIg&usqp=CAUg);
+   
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: cover;
+  background:url() no-repeat center center/ cover*/
+  background-color: rgb(77, 98, 116);
+}
+
+.conatainer {
+  width: 450px;
+  height: 450px;
+}
+
+.header {
+  font-size: 1.2rem;
+  border: solid 2px rgb(0, 0, 0);
+  color: rgb(23, 23, 24);
+  background-color: cornsilk;
+  padding: 5px;
+  margin: 20px auto;
+  /* auto left and right center */
+  border-radius: 5px;
+  box-shadow: 0 0 10px;
+}
+
+.main-heading {
+  width: 50vw;
+  height: 50vh;
+  background-color: aliceblue;
+  border-radius: 15px;
+  box-shadow: 0 0 10px;
+  text-align: center;
+}
+
+.main-heading .text-area {
+  font-size: 1.1rem;
+  line-height: 2;
+}
+.person {
+  font-size: 2rem;
+  color: coral;
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding: 30px;
+}
+.button-area button {
+  background-color: cadetblue;
+  font-size: 1.5rem;
+  padding: 10px 15px;
+  /* 15px left and right */
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.button-area button:active {
+  background-color: blueviolet;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="head-container">
+      <div class="container" id="box-1">
+        <h1 id="main-heading">Favourite Movie Franchise</h1>
+        <button onClick="alert('hello')" id="btn-1" class="list-items">
+          ENTER
+        </button>
+        <div class="hidden-content boxes">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+          minus sunt vitae soluta voluptatibus! Quae, quisquam. Accusantium
+          dolor dicta non autem! Ex in debitis adipisci sunt incidunt molestiae
+          corporis libero officiis numquam rerum necessitatibus, fugiat
+          veritatis corrupti iste odit consequatur dicta! Recusandae accusamus
+          veniam iure deserunt cumque ab, velit et quos nesciunt sequi a animi
+          nulla soluta odio laboriosam incidunt ea dolorem repellendus fugiat
+          nisi expedita. Commodi quod repellat neque cumque aliquam itaque
+          maxime dicta sit ducimus numquam. Itaque voluptatem corrupti, dolorum
+          voluptate atque aliquid similique nobis est eos adipisci culpa,
+          provident sit aperiam tenetur quis sequi iste ducimus totam.
+        </div>
+      </div>
+      <!-- <div class="container">
+        <h1 id="main-heading">Favourite Movie Franchise</h1>
+        <button id="btn-2" class="list-items">ENTER</button>
+      </div>
+      <div class="container">
+        <h1 id="main-heading">Favourite Movie Franchise</h1>
+        <button id="btn-3" class="list-items">ENTER</button>
+      </div> -->
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
